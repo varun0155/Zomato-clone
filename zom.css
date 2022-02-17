@@ -1,0 +1,240 @@
+.logo img{
+    height: 1.5rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+}
+
+.search input, select{
+    border: none;
+    outline: none;
+    color: grey;
+    font-size: 1em;
+}
+
+.search{
+    border-radius: 5px;
+    box-shadow: 0px 7px 10px 1px #cccaca;
+    flex : 0.9;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.search select{
+    flex : 0.2;
+}
+.search input{
+    flex : 0.5;
+}
+
+.search i{
+    color: grey;
+}
+
+.search .fa-map-marker{
+    color: rgb(207, 84, 115);
+    font-size: 1.3rem;
+}
+
+/* .button-right button{
+    b
+} */
+
+.breadcrumb{
+    margin-left: 7vw;
+}
+
+.breadcrumb ul{
+    padding: 0;
+}
+
+.breadcrumb ul li{
+    display: inline;
+    padding: 2px;
+}
+
+.breadcrumb ul li a{
+    text-decoration: none;
+}
+
+.breadcrumb ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* .breadcrumb ul li+li::before{
+    content: "/ ";
+} */
+
+.breadcrumb ul li a::after{
+    content: " /";
+}
+
+.tags{
+    display: flex;
+
+    margin-left: 8vw;
+
+}
+
+.tag{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.tag img{
+    height: 2.5rem;
+    padding-right: 10px;
+}
+
+#delivery{
+    border-bottom: 2px solid rgb(177, 89, 89);
+}
+
+#delivery h3{
+    color : rgb(177, 89, 89);
+}
+
+hr{
+    margin: 0;
+    background-color: rgb(216, 216, 216);
+}
+
+.menu-buttons{
+    display: flex;
+    margin-left: 8vw;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    background-color: white;
+}
+
+.menu-buttons button{
+    border-radius: 5px;
+    background-color: white;
+    border : 1px solid rgb(219, 204, 204);
+    padding: 10px;
+    margin-right: 10px;
+    color : rgb(145, 140, 140);
+}
+
+.menu-buttons button:hover{
+    background-color: rgb(228, 227, 227);
+}
+
+.top-dishes{
+    margin-left: 8vw;
+    position: relative;
+    width: 84VW;
+    
+    background-color: rgb(252, 250, 250);
+}
+
+.next, .previous{
+    z-index: 100;
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: none;
+    font-weight: 100;
+    background-color: white;
+    font-size: 12px;
+}
+
+.previous{
+    position: absolute; 
+    top : 7rem;
+    left: 5px;
+}
+
+.next{
+    position: absolute; 
+    top : 7rem;
+    right : 5px;
+}
+
+.slider{
+    display: flex;
+    transition: all 0.5s linear;
+}
+
+.dish{
+    margin-right: 20px;
+}
+
+.dish img{
+    height: 15rem;
+    border-radius: 10px;
+}
+.dish h3{
+    margin: 2px;
+}
+
+.slider-container{
+    overflow: hidden;
+}
+/* 
+
+5-> 
+static
+fixed -> top
+relative
+absolute
+sticky -> relative then fixed
+*/
+
+.top-restaurants{
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.restro-cards{
+    width: 300px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.restro-cards img{
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.restro-cards .name{
+    padding-top: 5px;
+    font-size: large;
+}
+
+
+.restro-cards .restro-dishes{
+    padding-top: 5px;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.restro-cards .info{
+    padding-top: 10px;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
